@@ -1487,6 +1487,7 @@ let midProducts = (data) => {
 
         let name = document.createElement('p')
         name.innerText = `Name : ${el.name}`
+        //change for ab testing
 
         let brand = document.createElement('p')
         brand.innerText = `Brand : ${el.brand}`
